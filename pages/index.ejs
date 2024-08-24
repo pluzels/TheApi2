@@ -3,20 +3,20 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta property="og:site_name" content="agatapiz.agatz.repl.com/dashboard" />
-    <meta property="og:title" content="Dashboard | AgatZNail Api" />
-    <meta property="og:url" content="https://agatapiz.agatz.repl.com/dashboard" />
+	<meta property="og:site_name" content="api.galihjsdev.xyz/dashboard" />
+    <meta property="og:title" content="Dashboard | Pluzels Api" />
+    <meta property="og:url" content="https://api.galihjsdev.xyz/dashboard" />
     <meta property="og:image" content="https://s4.anilist.co/file/anilistcdn/character/large/b131106-ZJOpYOpurcYS.png" />
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="AgatZNail" />
+    <meta property="og:image:alt" content="Pluzels" />
     <meta property="og:description" content="Dashboard" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Dashboard">
-	<meta name="author" content="AgatZ">
+	<meta name="author" content="Pluzels">
 	<meta name="keywords" content="Dashboard">
-	<title>Dashboard - AgatZNail Api</title>
+	<title>Dashboard - Pluzels Api</title>
 	<link rel="stylesheet" href="./module/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./module/bootstrap/css/bootstrap-icons.css">
 	<link rel="stylesheet" href="./module/mdi/css/materialdesignicons.min.css">
@@ -67,12 +67,12 @@
 								<a class="dropdown-item" href="/profile"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="/settings"><i class="align-middle me-1" data-feather="settings"></i> Pengaturan</a>
-								<a class="dropdown-item" href="https://wa.me/6285811523745?text=help!!!"><i class="align-middle me-1" data-feather="help-circle"></i> Bantuan</a>
+								<a class="dropdown-item" href="https://wa.me/6289669698104?text=help!!!"><i class="align-middle me-1" data-feather="help-circle"></i> Bantuan</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="/logout">Keluar</a>
 							</div>
 
-							<div class="sidebar-user-subtitle">Powered by: AgatZNail. All rights reserved</div>
+							<div class="sidebar-user-subtitle">Powered by: Pluzels. All rights reserved</div>
 						</div>
 					</div>
 				</div>
@@ -663,7 +663,7 @@ client.sendMessage(m.chat, {image: result, mimetype: <font color="green">'image/
 											<code class="list-group-item list-group-item-action" data-bs-toggle="list" role="tab">
 										router.<font color="blue">get</font>(<font color="green">'/cogan/random'</font>, async (req, res, next) => {<br>
 <font color="blue">var</font> result = {<br>
-url: `https://<font color="gray">agatapiz.agatz.repl.com/api/cogan/random?apikey=YOUR_APIKEY</font>`, method: 'GET', encoding: null };<br>
+url: `https://<font color="gray">api.galihjdev.xyz/api/cogan/random?apikey=YOUR_APIKEY</font>`, method: 'GET', encoding: null };<br>
 request(result, <font color="blue">function</font>(error, response, body) {<br>
 res.<font color="blue">set</font>(<font color="green">'Content-Type'</font>, <font color="green">'image/png'</font>);<br>
 res.send(body)<br>
@@ -678,7 +678,7 @@ res.send(body)<br>
 	<font color="blue">var</font> q = req.query.q<br><br>
 	
 	<font color="blue">let</font> fetch = require(<font color="green">'node-fetch'</font>)<br>
-	fetch(encodeURI(`https://<font color="gray">agatapiz.agatz.repl.com/api/search/google?q=${q}&apikey=YOUR_APIKEY</font>`))<br>
+	fetch(encodeURI(`https://<font color="gray">api.galihjsdev.xyz/api/search/google?q=${q}&apikey=YOUR_APIKEY</font>`))<br>
 	.then(response => response.json())<br>
 	.then(ress => {<br>
 		<font color="blue">var</font> result = ress;<br>
@@ -718,8 +718,8 @@ res.send(body)<br>
 				<div class="container-fluid">
 					<div class="footer-wrap pd-20 mb-20 card-box">
 					Copyright © <script>document.write(year);</script>
-					<a href="https://github.com/c/AgatZCode" target="_blank"
-						>AgatZ</a
+					<a href="https://github.com/c/Pluzels" target="_blank"
+						>Pluzels</a
 					>. All rights reserved.
 				</div>
 				</div>
